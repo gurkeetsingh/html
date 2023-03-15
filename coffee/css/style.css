@@ -30,6 +30,22 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+
+.navigation ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #29a19c;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navigation ul li:hover::after{
+    width: 100%;
+}
+
 .time{
     color: #fff;
     font-size: 153px;
