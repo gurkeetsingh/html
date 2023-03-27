@@ -136,20 +136,27 @@ h1.time{
     width:800px;
 }
 /* SECTION 2 STARTS FROM HERE */
-.sec2{
+.section2-text{
     height: 100vh;
-    background-color: #29a19c;
+
     display: flex;
 }
 
+.bottombar2 {
+    position: relative;
+}
 .blackc{
     color: rgb(255, 255, 255);
     font-size: 125px;
     font-family: "Grand Hotel", cursive;
     font-weight: 400;
-    margin: 90px;
+    
 }
+section.sec2 {
+    padding-bottom: 130px;
 
+    background-color: #29a19c;
+}
 .sec2 .firsthalf{
     width: 50%;
     text-align: center;
@@ -168,24 +175,28 @@ h1.time{
     margin-right: 80px;
 }
 
-.paratext p{
+.paratext p {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-align: justify;
     text-align-last: right;
     /* margin: auto; */
+    width: 487px;
+    text-align: center;
+    margin: auto;
 }
-
-.imagemug img{
+/* .imagemug img{
     padding: 40px 0px;
-}
+} */
 
 .bottombar2 img {
     height: 275px;
     position: absolute;
     width: 100%;
+    top: 116px;
     right: 0px;
+    z-index: -1;
 }
 /* section3 starts from here */ 
 
